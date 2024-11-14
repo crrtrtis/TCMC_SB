@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GVL" Id="{56672109-b018-43a2-b84c-94875f704fc1}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	SingleAxis : Axis_REF;
+	
+	
+	fbSA_Reset : MC_RESET;
+	fbSA_Power : MC_POWER;
+	fbSA_Home : MC_HOME;
+	fbSA_Jog : MC_JOG;
+	
+	bSA_ResetExe	: BOOL;
+	
+	bSA_PowerEnCmd	: BOOL;
+	bSA_PowerEnPositive	: BOOL;
+	bSA_PowerEnNegative	: BOOL;
+	
+	bSA_HomeExe	: BOOL;
+	bSA_HomeCamInput	: BOOL;
+	
+	bSA_JogFwd	:BOOL;
+	bSA_JogRev	:BOOL;
+	
+	iRSA_PowerOverride	: LREAL;
+	iRSA_HomePosition	: LREAL;
+	iRSA_SetPosition	: LREAL;
+	iRSA_JogVelocity	: LREAL;
+	
+	stSA_Reset		: ST_MC_Status;
+	stSA_Power		: ST_MC_Status;
+	stSA_Home		: ST_MC_Status;
+	stSA_SetPosition : ST_MC_Status;
+	stSA_Jog		: ST_MC_Status;
+	
+	
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

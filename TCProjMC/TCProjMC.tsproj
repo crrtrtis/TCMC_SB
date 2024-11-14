@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.53">
+	<Project ProjectGUID="{1650A94C-8B82-4EFA-83CB-A2D5C660A628}" Target64Bit="true" ShowHideConfigurations="#x6">
+		<System>
+			<Settings MaxCpus="3" NonWinCpus="1" Packages="2">
+				<Cpu CpuId="2"/>
+			</Settings>
+			<Licenses CacheOrCheckLicensesOnStartup="true">
+				<Target>
+					<ManualSelect>{50E513D1-8A01-4858-850E-FA89F7A12AFB}</ManualSelect>
+					<ManualSelect>{0ABFD2B0-EAE1-4DC7-AABE-03093B0786B7}</ManualSelect>
+					<ManualSelect>{BDCC0070-42D5-49AE-ABF1-1D4434813D60}</ManualSelect>
+					<ManualSelect>{4AB869F0-145C-4EB0-878E-69BB1793E116}</ManualSelect>
+					<LicenseDevice DongleHardwareId="2" DongleDevice="#x71010001" DongleLevel="90" DongleSystemId="{FDF0D539-F851-6AE2-B98A-AB45DBAB07CD}"/>
+				</Target>
+			</Licenses>
+			<Tasks>
+				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
+					<Name>PlcTask</Name>
+				</Task>
+			</Tasks>
+		</System>
+		<Motion>
+			<NC File="NC.xti"/>
+		</Motion>
+		<Plc>
+			<Project GUID="{AE81B98D-8173-4664-9206-020237678210}" Name="MCSB" PrjFilePath="MCSB\MCSB.plcproj" TmcFilePath="MCSB\MCSB.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="MCSB\MCSB.tmc" TmcHash="{1476DCF5-1749-225A-BDF0-1CD0780F765A}">
+					<Name>MCSB Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Contexts>
+						<Context>
+							<Id>0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
+						</Context>
+					</Contexts>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
+		</Plc>
+		<Io>
+			<Device File="Device 1 (EtherCAT).xti" Id="1"/>
+		</Io>
+	</Project>
+</TcSmProject>
