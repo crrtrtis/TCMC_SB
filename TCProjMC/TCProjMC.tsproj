@@ -989,9 +989,6 @@ External Setpoint Generation:
 			</Settings>
 			<Licenses>
 				<Target>
-					<ManualSelect>{50E513D1-8A01-4858-850E-FA89F7A12AFB}</ManualSelect>
-					<ManualSelect>{0ABFD2B0-EAE1-4DC7-AABE-03093B0786B7}</ManualSelect>
-					<ManualSelect>{BDCC0070-42D5-49AE-ABF1-1D4434813D60}</ManualSelect>
 					<ManualSelect>{4AB869F0-145C-4EB0-878E-69BB1793E116}</ManualSelect>
 				</Target>
 			</Licenses>
@@ -1006,7 +1003,7 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{AE81B98D-8173-4664-9206-020237678210}" Name="MCSB" PrjFilePath="MCSB\MCSB.plcproj" TmcFilePath="MCSB\MCSB.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="MCSB\MCSB.tmc" TmcHash="{ACB75AAD-27B1-A0BF-D4B5-83B1CF220C78}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="MCSB\MCSB.tmc" TmcHash="{BF85B132-BFEC-F517-44BC-47CDE6CA6561}">
 					<Name>MCSB Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">

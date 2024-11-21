@@ -6,22 +6,22 @@ VAR_GLOBAL
 	SingleAxis : Axis_REF;
 	
 	
-	fbSA_Reset : MC_RESET;
-	fbSA_Power : MC_POWER;
-	fbSA_Home : MC_HOME;
-	fbSA_Jog : MC_JOG;
+	fbSA_Reset 	: MC_RESET;
+	fbSA_Power 	: MC_POWER;
+	fbSA_Home 	: MC_HOME;
+	fbSA_Jog 	: MC_JOG;
 	
-	bSA_ResetExe	: BOOL;
+	bSA_ResetExe		: BOOL;
 	
-	bSA_PowerEnCmd	: BOOL;
+	bSA_PowerEnCmd		: BOOL;
 	bSA_PowerEnPositive	: BOOL;
 	bSA_PowerEnNegative	: BOOL;
 	
-	bSA_HomeExe	: BOOL;
+	bSA_HomeExe			: BOOL;
 	bSA_HomeCamInput	: BOOL;
 	
-	bSA_JogFwd	:BOOL;
-	bSA_JogRev	:BOOL;
+	bSA_JogFwd			:BOOL;
+	bSA_JogRev			:BOOL;
 	
 	iRSA_PowerOverride	: LREAL;
 	iRSA_HomePosition	: LREAL;
