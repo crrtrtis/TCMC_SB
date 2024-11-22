@@ -12,10 +12,13 @@ VAR_GLOBAL
 	fbSA_Jog 	: MC_JOG;
 	fbSA_MovVel1 	: MC_MoveVelocity;
 	fbSA_MovVel2 	: MC_MoveVelocity;
+	fbSA_MovVel3 	: MC_MoveVelocity;
 	fbSA_MovRel1 	: MC_MoveRelative;
 	fbSA_MovRel2 	: MC_MoveRelative;
+	fbSA_MovRel3 	: MC_MoveRelative;
 	fbSA_MoveAbs1 	: MC_MoveAbsolute;
 	fbSA_MoveAbs2 	: MC_MoveAbsolute;
+	fbSA_MoveAbs3 	: MC_MoveAbsolute;
 	
 	bSA_ResetExe		: BOOL;
 	
