@@ -984,8 +984,8 @@ External Setpoint Generation:
 	</DataTypes>
 	<Project ProjectGUID="{1650A94C-8B82-4EFA-83CB-A2D5C660A628}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
-			<Settings MaxCpus="3" NonWinCpus="1" Packages="2">
-				<Cpu CpuId="2"/>
+			<Settings MaxCpus="2" NonWinCpus="1">
+				<Cpu CpuId="1"/>
 			</Settings>
 			<Licenses>
 				<Target>
