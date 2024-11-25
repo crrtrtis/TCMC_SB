@@ -10,7 +10,7 @@ STRUCT
 	lrJog			: LREAL;
 	lrDistance		: LREAL;
 	lrPosition		: LREAL;
-	EnuDrecetion	: MC_Direction;
+	EnuDirection	: MC_Direction;
 	EnuBufferMode	: MC_BufferMode;
 	EnuOptions		: ST_MoveOptions;
 END_STRUCT

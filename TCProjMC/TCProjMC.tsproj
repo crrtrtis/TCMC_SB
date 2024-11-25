@@ -1003,7 +1003,7 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{AE81B98D-8173-4664-9206-020237678210}" Name="MCSB" PrjFilePath="MCSB\MCSB.plcproj" TmcFilePath="MCSB\MCSB.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="MCSB\MCSB.tmc" TmcHash="{BF85B132-BFEC-F517-44BC-47CDE6CA6561}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="MCSB\MCSB.tmc" TmcHash="{2D4603AC-9DFF-AB7C-5DAD-F10AD3BD1034}">
 					<Name>MCSB Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
