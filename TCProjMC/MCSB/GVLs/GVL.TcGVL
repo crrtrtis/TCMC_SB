@@ -20,6 +20,9 @@ VAR_GLOBAL
 	fbSA_MoveAbs2 	: MC_MoveAbsolute;
 	fbSA_MoveAbs3 	: MC_MoveAbsolute;
 	
+	fbSA_Halt		: MC_Halt;
+	fbSA_Stop		: MC_Stop;
+	
 	bSA_ResetExe		: BOOL;
 	
 	bSA_PowerEnCmd		: BOOL;
@@ -31,6 +34,9 @@ VAR_GLOBAL
 	
 	bSA_JogFwd			:BOOL;
 	bSA_JogRev			:BOOL;
+	
+	bSA_HaltExe		: BOOL;
+	bSA_StopExe		: BOOL;
 	
 	stSA_VelCmd1			: ST_MC_CMD;
 	stSA_VelCmd2			: ST_MC_CMD;
@@ -58,6 +64,9 @@ VAR_GLOBAL
 	ST_AbsSta1		: ST_MC_Status;
 	ST_AbsSta2		: ST_MC_Status;
 	
+	
+	stST_Halt			: ST_MC_Status;
+	stST_Stop			: ST_MC_Status;
 	
 END_VAR]]></Declaration>
   </GVL>
